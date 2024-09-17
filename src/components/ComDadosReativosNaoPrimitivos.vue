@@ -8,15 +8,15 @@
 </template>
 
 <script setup>
-import {reactive} from "vue"
-const pessoa = reactive({nome:"Leandro", idade:34})
+    import {reactive} from "vue"
+    const pessoa = reactive({nome:"Leandro", idade:34})
 
-function fazerAniversario() {
-    pessoa.idade += 1
-}
+    function fazerAniversario() {
+        pessoa.idade += 1
+    }
 
-function mudarNome(){
-    pessoa.nome = "Cordeiro"
-}
+    function mudarNome(){
+        pessoa.nome = "Cordeiro"
+    }
 </script>
 
