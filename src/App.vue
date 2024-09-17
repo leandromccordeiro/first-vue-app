@@ -7,10 +7,12 @@ import DataBinding from "./components/DataBinding.vue";
 import ComProps from "./components/ComProps.vue";
 import EscutaEvento from "./components/EscutaEvento.vue";
 import PropriedadesComputadas from "./components/PropriedadesComputadas.vue";
+import PropriedadesAssistida from "./components/PropriedadesAssistida.vue";
 </script>
 
 <template>
   <header>Vue</header>
+  <PropriedadesAssistida/>
   <PropriedadesComputadas/>
   <EscutaEvento/>
   <ComProps item="Borracha" :preco="2.50"/>

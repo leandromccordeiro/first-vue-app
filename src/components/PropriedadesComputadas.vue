@@ -1,7 +1,7 @@
 <template>
     <div class="componente">
         <h1>Componente com propriedades computadas</h1>
-        <p>{{ idade }}</p>
+        <p>Idade: {{ idade }}</p>
         <label>Ano Nascimento</label>
         <input type="number" v-model="nascimento" min="1900"/>
         <label>Ano Atual:</label>
