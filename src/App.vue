@@ -5,10 +5,12 @@ import ComDadosReativosPrimitivos from "./components/ComDadosReativosPrimitivos.
 import ComDadosReativosNaoPrimitivos from "./components/ComDadosReativosNaoPrimitivos.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ComProps from "./components/ComProps.vue";
+import EscutaEvento from "./components/EscutaEvento.vue";
 </script>
 
 <template>
   <header>Vue</header>
+  <EscutaEvento/>
   <ComProps item="Borracha" :preco="2.50"/>
   <DataBinding/>
   <ComDadosReativosNaoPrimitivos/>
