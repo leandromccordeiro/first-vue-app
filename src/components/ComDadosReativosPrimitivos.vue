@@ -1,6 +1,6 @@
 <template>
     <div class="componente">
-        <h1>Componentes com dados reativos</h1>
+        <h1>Componentes com dados reativos PRIMITIVOS</h1>
         <p>Nome: {{ nome }} | Idade: {{ idade }}</p>
         <button v-on:click="fazerAniversario">Fazer aniversário</button>
         <button @click="mudarNome">Mudar nome</button>
