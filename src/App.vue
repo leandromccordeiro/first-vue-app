@@ -9,10 +9,18 @@ import EscutaEvento from "./components/EscutaEvento.vue";
 import PropriedadesComputadas from "./components/PropriedadesComputadas.vue";
 import PropriedadesAssistida from "./components/PropriedadesAssistida.vue";
 import RenderizacaoCondicional from "./components/RenderizacaoCondicional.vue";
+import RenderizacaoListas from "./components/RenderizacaoListas.vue";
+
+const cachorrosDoLeandro = [
+  {nome:'Crono', idade:3},
+  {nome:'Tulon', idade:5},
+  {nome:'Akira', idade: 8}
+]
 </script>
 
 <template>
   <header>Vue</header>
+  <RenderizacaoListas nome="Leandro" :cachorros="cachorrosDoLeandro"/>
   <RenderizacaoCondicional nome="Thayane" :qtd-cachorros="1"/>
   <PropriedadesAssistida/>
   <PropriedadesComputadas/>
