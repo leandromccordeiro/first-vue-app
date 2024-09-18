@@ -10,6 +10,7 @@ import PropriedadesComputadas from "./components/PropriedadesComputadas.vue";
 import PropriedadesAssistida from "./components/PropriedadesAssistida.vue";
 import RenderizacaoCondicional from "./components/RenderizacaoCondicional.vue";
 import RenderizacaoListas from "./components/RenderizacaoListas.vue";
+import Slots from "./components/Slots.vue";
 
 const cachorrosDoLeandro = [
   {nome:'Crono', idade:3},
@@ -20,6 +21,9 @@ const cachorrosDoLeandro = [
 
 <template>
   <header>Vue</header>
+  <Slots>
+    
+  </Slots>
   <RenderizacaoListas nome="Leandro" :cachorros="cachorrosDoLeandro"/>
   <RenderizacaoCondicional nome="Thayane" :qtd-cachorros="1"/>
   <PropriedadesAssistida/>
