@@ -26,6 +26,10 @@
     //     idade.value = anoAtual.value - ano
     // })
 
+    watchEffect(()=>{
+        idade.value = anoAtual.value - nascimento.value
+    })
+
 </script>
 
 <style scoped>
